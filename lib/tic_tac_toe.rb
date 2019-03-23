@@ -94,7 +94,6 @@ class TicTacToe
         end
       end
 
-
       def over?()
         full?() || won?() || draw?()
       end
@@ -118,7 +117,6 @@ class TicTacToe
       end
 
 end
-
 
 new_board = TicTacToe.new()
 puts new_board.display_board()
